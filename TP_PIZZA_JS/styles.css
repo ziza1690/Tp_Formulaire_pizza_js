@@ -1,0 +1,59 @@
+*{
+padding:0px;
+margin:0px;
+box-sizing:border-box;
+}
+
+img{
+max-width:100%;
+}
+
+html, body{
+background-color:#ccc;
+font-family: Verdana;
+font-size:1.1em;
+}
+
+body > div:first-child{
+max-width:1200px;
+margin:auto;
+background-color:#fff;
+padding:25px;
+padding-top:0px;	
+}
+
+h1{padding:20px; background-color:black; color:#ffcc00; margin-bottom:20px;}
+input[type='text'], input[type='password'], select {
+padding:5px;
+border-radius:5px;
+font-size:1.3em;
+color:red;
+}
+
+legend{ color:#0d3358;}
+fieldset{ width:80%; margin:auto; border:2px #0d3358 solid; border-radius:0px 40px 0px 0px; padding:25px; background-color:#eee; margin-bottom:15px;}
+fieldset div { margin-bottom:25px;}
+fieldset div p:first-child{ margin-bottom:3px;}
+label{cursor:pointer;}
+
+input[type="radio"], input[type="checkbox"]{
+margin-left:25px;	
+}
+input[type="radio"]:nth-child(1), input[type="checkbox"]:first-child{
+margin-left:0px;	
+}
+
+form > div:last-child{
+width:80%; margin:auto;
+}
+.error{
+color:red;
+font-size:0.7em;
+}
+
+
+
+
+
+
+
